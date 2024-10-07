@@ -1,0 +1,82 @@
+label.hide-variation {
+  cursor: pointer !important;
+}
+
+.notify-me-container .error {
+  border: 1px solid #c22014;
+}
+
+.notify-me-container {
+  display: block;
+  margin-top: 10px;
+  padding-top: 6rem;
+  -webkit-transition: max-height 1s;
+  transition: max-height 1s;
+}
+
+.notify-me-label {
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.notify-me-container .prod-attr {
+  color: #2a2a2a;
+  font-weight: bold;
+}
+
+form.notify-me-form input {
+  margin-bottom: 0px;
+}
+
+form.notify-me-form input[type="checkbox"] {
+  margin: -3px 0px 0 5px;
+}
+
+.notify-me-success {
+  margin: 10px 0;
+  padding: 1em;
+  color: #fff;
+  background-color: #df273a;
+}
+
+.notify-me-success.hidden {
+  display: none;
+}
+
+.notify-me-action {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.notify-me-action a {
+  max-width: 180px;
+}
+
+.notify-me-action a.notify-cancel-btn {
+  background-color: transparent !important;
+  color: #000 !important;
+}
+
+
+.notify-me-container i.loading {
+  display: inline-block;
+  content: "";
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -ms-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+  color: inherit;
+  -moz-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  margin-right: 6px;
+  margin-left: 0;
+  background: url("../svg/spinner-solid-white.svg") center/contain no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 0 0 -3px 3px !important;
+}

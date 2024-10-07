@@ -1,0 +1,26 @@
+i.loading {
+  display: inline-block;
+  content: "";
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -ms-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+  color: inherit;
+  -moz-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  margin-right: 6px;
+  margin-left: 0;
+  background: url("../../assets/svg/spinner-solid-white.svg") center/contain no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 0 0 -3px 3px !important;
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
